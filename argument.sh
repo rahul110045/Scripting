@@ -1,4 +1,5 @@
 #! /bin/bash
+IFS="_"
 
 echo "number of argument: $#"
 echo "script name: $0"
@@ -8,3 +9,5 @@ echo "third argument: $3"
 echo "fourth argument: $4"
 echo "fifth argument: $5"
 echo "sixth argument: $6"
+echo "@ argument: $2"
+echo "* argument: $2"
