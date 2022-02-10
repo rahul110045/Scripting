@@ -1,8 +1,9 @@
 #! /bin/bash
-a=10
-b=20
-course="linux"
-action="sleep"
-echo "values of a and b are : $a and $b"
-echo "my course is : $course"
-echo "my course is ${course}"
+echo " total no of arguments : $#"
+echo "name of script : $0"
+echo "first argument is : $1"
+echo "2nd argument is : $2"
+echo "3rd argument is : $3"
+echo "4th argument is : $4"
+echo "5th argument is : $5"
+echo "total argument : $*"
