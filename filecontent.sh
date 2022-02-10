@@ -1,3 +1,3 @@
 #! /bin/bash
-read -p "enter any file name to display its content: " fname
+read -p "enetr file name to see its content: " fname
 cat $fname
